@@ -121,8 +121,7 @@ class NQPatternAnalyzer:
         }
         
         return stats
-
-# Example usage
+#test case
 analyzer = NQPatternAnalyzer()
 data = analyzer.fetch_data()
 patterns = analyzer.analyze_time_window()
